@@ -1,1 +1,64 @@
-/* test line */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    margin: auto;
+    display: inline block;
+}
+
+.navbar {
+    display: block;
+    background-color: rgb(146, 205, 250);
+    overflow: hidden;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.navbar a {
+    padding: 20px 20px;
+    display: inline;
+    font-size: large;
+    float: right;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: lavender;
+    color: deeppink;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
+  
