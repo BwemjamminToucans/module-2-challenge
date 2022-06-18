@@ -68,6 +68,7 @@ body {
     margin-left: 50px;
     flex-direction: row;
     text-indent: 30px;
+    padding: 5px;
 }
 
  h3 {
@@ -133,6 +134,14 @@ body {
 
 #id_contact {
     display: inline;
+}
+
+#id_contact {
+    padding: 20px 20px;
+    display: inline;
+    font-size: large;
+    float: inline-start;
+    text-align: center;
 }
 
 .footer {
