@@ -59,6 +59,17 @@ body {
     color: black;
 }
 
+.bio {
+    display: flex;
+    flex: wrap;
+    flex: 1 0 auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    flex-direction: row;
+    text-indent: 30px;
+}
+
  h3 {
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -120,7 +131,9 @@ body {
     opacity: 1;
   }
 
-
+#id_contact {
+    display: inline;
+}
 
 .footer {
     font-size: small;
