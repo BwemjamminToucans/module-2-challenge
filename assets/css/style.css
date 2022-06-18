@@ -51,6 +51,36 @@ body {
     color: deeppink;
 }
 
+.welcome {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-color: rgb(146, 205, 250);
+    color: black;
+}
+
+.about-me, .work, .contact-me, .resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    flex: 1 1 auto;
+    align-self: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    width: 90%;
+    padding: 30px;
+    border: 3px dashed rgb(113, 80, 85);
+}
+
+#id_about {
+    flex: 3 1 auto;
+    flex-shrink: 1;
+}
+
 
 @media screen and (max-width: 768px) {
     header {
