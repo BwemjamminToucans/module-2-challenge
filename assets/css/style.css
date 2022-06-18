@@ -4,7 +4,7 @@
     margin: 0px;
 }
 
-img {
+.banner-photo {
     max-width: 100%;
     max-height: 200px;
     object-fit: cover;
@@ -59,7 +59,57 @@ body {
     color: black;
 }
 
-.about-me, .work, .contact-me, .resume {
+ h3 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 25px;
+ }
+ 
+ .work {
+    background-color: darkgrey;
+ }
+
+.java-img, .api-img, .react-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px
+ }
+
+ .container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .java-overlay, .api-overlay, .react-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container:hover .java-overlay, .api-overlay, .react-overlay {
+    opacity: 1;
+  }
+
+ {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -74,11 +124,6 @@ body {
     width: 90%;
     padding: 30px;
     border: 3px dashed rgb(113, 80, 85);
-}
-
-#id_about {
-    flex: 3 1 auto;
-    flex-shrink: 1;
 }
 
 
