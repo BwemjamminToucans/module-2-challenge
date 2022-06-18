@@ -24,7 +24,7 @@ body {
     display: inline block;
 }
 
-.navbar {
+.navbar, .contact-me {
     display: block;
     background-color: rgb(146, 205, 250);
     overflow: hidden;
@@ -70,7 +70,18 @@ body {
  
  .work {
     background-color: darkgrey;
- }
+}
+
+#id_work {
+    font-size: medium;
+    color: black;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
 
 .java-img, .api-img, .react-img {
     margin-left: auto;
@@ -109,23 +120,17 @@ body {
     opacity: 1;
   }
 
- {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-    gap: 30px;
-    flex: 1 1 auto;
-    align-self: auto;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    margin-left: 15px;
-    width: 90%;
-    padding: 30px;
-    border: 3px dashed rgb(113, 80, 85);
-}
 
+
+.footer {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: midnightblue;
+    color: chocolate;
+    text-align: center;
+    display: block;
+    padding-top: 3px;
+}
 
 @media screen and (max-width: 768px) {
     header {
