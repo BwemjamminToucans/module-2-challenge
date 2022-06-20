@@ -61,6 +61,19 @@ body {
     color: black;
 }
 
+aside {
+    background-color: azure;
+    width: 20%;
+    padding-left: 15px;
+    margin-left: auto;
+    float: right;
+}
+
+.headshot {
+    max-width: 100%;
+    max-height: fit-content;
+}
+
 .bio {
     display: flex;
     flex: wrap;
@@ -95,6 +108,7 @@ body {
     padding-bottom: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
+    margin-inline-start: auto;
 }
 
 .java-img, .api-img, .react-img {
