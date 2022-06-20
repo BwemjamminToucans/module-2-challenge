@@ -39,11 +39,13 @@ body {
     font-size: large;
     float: right;
     text-align: center;
+    background-color: rgb(146, 205, 250);
 }
 
 .navbar a:hover {
     background-color: whitesmoke;
     color: black;
+    border-radius: 50px;
 }
 
 .navbar a.active {
@@ -132,12 +134,15 @@ body {
     opacity: 1;
   }
 
-#id_contact {
-    display: inline;
+.resume {
+    background-color: dimgray;
+    margin: 30px 200px;
 }
+
 
 #id_contact {
     padding: 20px 20px;
+    display: flex;
     display: inline;
     font-size: large;
     float: inline-start;
