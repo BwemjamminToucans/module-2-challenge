@@ -43,14 +43,14 @@ body {
 }
 
 .navbar a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: lavender;
+    color: deeppink;
     border-radius: 50px;
 }
 
-.navbar a.active {
-    background-color: lavender;
-    color: deeppink;
+.navbar a:active {
+    background-color: whitesmoke;
+    color: black;
 }
 
 .welcome {
@@ -120,7 +120,7 @@ aside {
     border-radius: 10px
  }
 
- .container {
+.container {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -129,7 +129,7 @@ aside {
     max-width: 100%;
   }
 
-  .java-overlay, .api-overlay, .react-overlay {
+.java-overlay, .api-overlay, .react-overlay {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
@@ -146,7 +146,8 @@ aside {
 
   .container:hover .java-overlay, .api-overlay, .react-overlay {
     opacity: 1;
-  }
+}
+
 
 .resume {
     background-color: dimgray;
@@ -154,12 +155,12 @@ aside {
 }
 
 
-#id_contact {
+#id_contact li {
     padding: 20px 20px;
-    display: flex;
+    margin: 10px 15px 10px 15px;
+    display: block;
     display: inline;
     font-size: large;
-    float: inline-start;
     text-align: center;
 }
 
