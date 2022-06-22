@@ -164,6 +164,26 @@ aside {
     text-align: center;
 }
 
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 10px;
+    padding-bottom: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+        font-size: x-large;
+        font-family: monospace;
+        padding-left: 30px;
+        padding-right: 30px;
+	}
+
 .footer {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
