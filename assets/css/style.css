@@ -65,8 +65,6 @@ aside {
     background-color: azure;
     width: 20%;
     padding-left: 15px;
-    margin-left: auto;
-    float: right;
 }
 
 .headshot {
@@ -87,7 +85,7 @@ aside {
 }
 
  h3 {
-    font-size: larger;
+    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -97,6 +95,7 @@ aside {
  
  .work {
     background-color: darkgrey;
+    display: flex;
 }
 
 #id_work {
@@ -125,9 +124,13 @@ aside {
     margin-right: auto;
     display: block;
     position: relative;
-    width: 50%;
+    width: 100%;
     max-width: 100%;
   }
+
+.work main {
+    width: 100%;
+}
 
 .java-overlay, .api-overlay, .react-overlay {
     position: absolute;
